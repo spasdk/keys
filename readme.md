@@ -1,6 +1,7 @@
 Keyboard keys codes
 ===================
 
+[![Build Status](https://img.shields.io/travis/spasdk/keys.svg?style=flat-square)](https://travis-ci.org/spasdk/keys)
 [![NPM version](https://img.shields.io/npm/v/spa-keys.svg?style=flat-square)](https://www.npmjs.com/package/spa-keys)
 [![Dependencies Status](https://img.shields.io/david/spasdk/keys.svg?style=flat-square)](https://david-dm.org/spasdk/keys)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/spasdk)
@@ -41,4 +42,4 @@ Pull requests are welcomed with respect to the [JavaScript Code Style](https://g
 
 ## License ##
 
-`spa-keys` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
+`spa-keys` is released under the [MIT License](license.md).

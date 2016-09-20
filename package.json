@@ -6,10 +6,18 @@
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "spasdk/app",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/spasdk/keys.git"
+    },
     "scripts": {
-        "lint": "eslint *.js",
+        "lint": "eslint .",
+        "test": "npm run lint",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
+    },
+    "devDependencies": {
+        "eslint": "3.*.*",
+        "spa-eslint-config": "spasdk/eslint-config"
     },
     "keywords": [
         "spa",
@@ -19,5 +27,5 @@
         "keys",
         "codes"
     ],
-    "license": "GPL-3.0"
+    "license": "MIT"
 }
