@@ -30,7 +30,7 @@ In some event handler:
 
 ```js
 if ( event.code === keys.enter ) {
-    ...
+    /* ... */
 }
 ```
 
