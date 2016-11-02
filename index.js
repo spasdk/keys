@@ -24,5 +24,5 @@ module.exports = {
     right:     39,
     down:      40,
     insert:    45,
-    'delete':  46
+    del:       46   // not "delete" because of old browsers issue
 };
