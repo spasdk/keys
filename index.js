@@ -7,8 +7,6 @@
 
 'use strict';
 
-/* eslint quote-props: 0 */
-
 // public
 module.exports = {
     backspace: 8,
